@@ -28,6 +28,7 @@ public class HibernateMain
        product.setPrice(13999);
        
        s.save(product);
+       System.out.println("product is saved");
        
        
        tx.commit();
